@@ -5,6 +5,8 @@
     justify-content: center;
     padding: 1rem 0;
     border-bottom: 1px solid #eee;
+    font-weight: bold;
+    color: white;
 
     > ul {
         width: 100%;
@@ -13,4 +15,9 @@
         align-items: center;
         padding: 0 1rem;
     }
+}
+
+.logo {
+    font-size: 35px;
+    padding: 10px;
 }

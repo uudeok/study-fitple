@@ -5,11 +5,11 @@ const RootHeader = () => {
     return (
         <nav className={styles.layout}>
             <ul>
-                <li>
-                    <Link href="/">로고</Link>
+                <li className={styles.logo}>
+                    <Link href="/">핏플</Link>
                 </li>
 
-                <li>
+                <li className={styles.login}>
                     <Link href="/login">로그인</Link>
                 </li>
             </ul>

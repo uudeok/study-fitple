@@ -17,7 +17,7 @@ export type TProject = {
     updated_at: string;
 };
 
-export const FAVORITES_PROFILES: TProject[] = [
+export const FAVORITES_PROJECTS: TProject[] = [
     {
         id: 1,
         user_id: 5,

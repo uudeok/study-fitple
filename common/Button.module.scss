@@ -1,0 +1,88 @@
+.buttonBase {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 0 solid transparent;
+    background-color: $color-primary;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+    padding: 7px;
+
+    border-radius: 10px;
+}
+
+.buttonBase:focus {
+    outline: none;
+}
+
+.buttonBase:disabled {
+    opacity: 0.26;
+    cursor: not-allowed;
+}
+
+/* Role Style */
+
+.roleconfirm {
+    background-color: $color-primary;
+    color: white;
+}
+
+.roleconfirm:hover {
+    background-color: $color-accent;
+}
+
+.rolecancel {
+    background-color: var(--grey200);
+    color: grey;
+}
+
+.rolecancel:hover {
+    color: darkgrey;
+}
+
+.rolenone {
+    color: var(--mainColorDk);
+    background-color: transparent;
+}
+
+.rolenone:hover {
+    background-color: transparent;
+    color: var(--mainHover);
+}
+
+.rolewarning {
+    background-color: $color-secondary;
+}
+
+.rolewarning:hover {
+    background-color: $color-secondary;
+}
+
+.roleround {
+    border-radius: 30px;
+}
+
+.roleround:hover {
+    background-color: #78a8e8;
+}
+
+/* Size Styles */
+
+.sizesm {
+    height: 35px;
+}
+
+.sizemd {
+    height: 40px;
+}
+
+.sizelg {
+    height: 45px;
+}
