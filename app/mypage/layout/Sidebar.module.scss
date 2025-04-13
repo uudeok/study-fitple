@@ -1,0 +1,25 @@
+.sidebar {
+    width: 100%;
+}
+
+.group {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.groupTitle {
+    font-weight: bold;
+    color: $color-accent;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.link {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+}
