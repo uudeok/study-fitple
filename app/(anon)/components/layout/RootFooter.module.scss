@@ -1,0 +1,43 @@
+.footer {
+    padding: 36px 48px;
+    border-top: 1px solid #dbdee2;
+    box-sizing: border-box;
+    margin-top: auto; // footer 항상 아래로
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    span {
+        margin-bottom: 8px;
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+.contact {
+    display: flex;
+    gap: 94px;
+    margin-top: 16px;
+    color: #6f7785;
+    font-size: 14px;
+}
+
+.hours {
+    line-height: 1.5;
+}
+
+.email {
+    margin-top: 8px;
+}
