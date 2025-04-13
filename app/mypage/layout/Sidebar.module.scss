@@ -23,3 +23,8 @@
     line-height: 26px;
     letter-spacing: -0.5px;
 }
+
+.active {
+    color: $color-primary; // 현재 페이지의 링크는 주색상으로 표시
+    font-weight: bold;
+}

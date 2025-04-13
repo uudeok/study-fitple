@@ -1,0 +1,19 @@
+.badge {
+    display: inline-flex;
+    padding: 4px 8px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.222;
+    border-radius: 12px;
+    font-weight: bold;
+    color: $color-white;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: $color-primary;
+}
+
+.secondary {
+    background-color: $color-secondary;
+}

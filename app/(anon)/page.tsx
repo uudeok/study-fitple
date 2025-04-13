@@ -1,7 +1,7 @@
 const Home = () => {
     return (
         <div>
-            <div>hello</div>
+            <div>main 페이지 입니다</div>
         </div>
     );
 };
