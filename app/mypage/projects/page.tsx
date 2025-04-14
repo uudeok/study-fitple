@@ -1,13 +1,19 @@
+'use client';
+
 import styles from './MyProjects.module.scss';
-import { FAVORITES_PROJECTS } from '@/constants/favoriteProjects';
 import Card from '@/common/Card';
 import Badge from '@/common/Badge';
+import { MY_PROJECTS } from '@/constants/myProjects';
+import { useRouter } from 'next/navigation';
 
 const MyProjectsPage = () => {
+    const router = useRouter();
+
     return (
         <div className={styles.container}>
-            {FAVORITES_PROJECTS.map((project) => (
+            {MY_PROJECTS.map((project) => (
                 <Card
+                    onClick={() => router.push(`/mypage/projects/${project.id}`)}
                     key={project.id}
                     header={<Badge>📂 프로젝트</Badge>}
                     footer={<div className={styles.likes}>❤️좋아요 15개</div>}

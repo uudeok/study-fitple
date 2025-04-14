@@ -29,3 +29,13 @@
     color: $color-primary; // 현재 페이지의 링크는 주색상으로 표시
     font-weight: bold;
 }
+
+.subLink {
+    padding-left: 16px;
+    margin-top: 4px;
+
+    li {
+        font-size: 0.9rem;
+        color: #666;
+    }
+}

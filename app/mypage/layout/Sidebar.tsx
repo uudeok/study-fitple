@@ -45,6 +45,16 @@ const Sidebar = () => {
                         <Link href="/mypage/profile" className={isActive('/mypage/profile') ? styles.active : ''}>
                             작성한 프로필
                         </Link>
+                        <ul className={styles.subLink}>
+                            <li>
+                                <Link
+                                    href="/mypage/profile/applicants"
+                                    className={isActive('/mypage/profile/applicants') ? styles.active : ''}
+                                >
+                                    ㄴ제안 현황
+                                </Link>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -66,14 +76,6 @@ const Sidebar = () => {
                             className={isActive('/mypage/proposals/sent') ? styles.active : ''}
                         >
                             제안한 프로필
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            href="/mypage/proposals/received"
-                            className={isActive('/mypage/proposals/received') ? styles.active : ''}
-                        >
-                            제안받은 프로필
                         </Link>
                     </li>
                 </ul>
